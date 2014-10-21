@@ -1,0 +1,8 @@
+<h1>Storefront</h1>
+
+<div>This store's id is: <%= store.id %>.</div>
+<div>This store's name is: <%= store.name %>.</div>
+<div>This store's inventory is:
+	<% store.inventory.each |product| %>
+	<%= product %>
+</div>
